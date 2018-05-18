@@ -93,8 +93,8 @@ include_directories(include
 # Mark executable scripts (Python etc.) for installation
 # in contrast to setup.py, you can choose the destination
  install(PROGRAMS
-   scripts/talker.py
-   scripts/listener.py
+   scripts/talker.cpp
+   scripts/listener.cpp
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
 
